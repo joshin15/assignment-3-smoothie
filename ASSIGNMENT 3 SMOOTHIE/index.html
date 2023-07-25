@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smoothie Machine</title>
+</head>
+<body>
+    <h1>Welcome to The Smoothie Machine!</h1>
+    <form id="smoothieForm">
+        <label for="base">Select Base:</label>
+        <select name="base" id="base">
+            <option value="milk">Milk</option>
+            <option value="yogurt">Yogurt</option>
+            <option value="coconutMilk">Coconut Milk</option>
+            <option value="fruitJuice">Fruit Juice</option>
+        </select>
+        <br>
+        <label for="fruits">Select Fruits:</label>
+        <input type="checkbox" name="fruits" value="banana"> Banana
+        <input type="checkbox" name="fruits" value="strawberry"> Strawberry
+        <input type="checkbox" name="fruits" value="blueberry"> Blueberry
+        <input type="checkbox" name="fruits" value="mango"> Mango
+        <input type="checkbox" name="fruits" value="pineapple"> Pineapple
+        <br>
+        <label for="extras">Select Extras:</label>
+        <input type="checkbox" name="extras" value="spinach"> Spinach
+        <input type="checkbox" name="extras" value="kale"> Kale
+        <input type="checkbox" name="extras" value="proteinPowder"> Protein Powder
+        <input type="checkbox" name="extras" value="chiaSeeds"> Chia Seeds
+        <br>
+        <label for="sweetener">Select Sweetener:</label>
+        <input type="radio" name="sweetener" value="honey"> Honey
+        <input type="radio" name="sweetener" value="agave"> Agave
+        <input type="radio" name="sweetener" value="mapleSyrup"> Maple Syrup
+        <br>
+        <input type="submit" value="Order Smoothie">
+    </form>
+    <div id="smoothieDescription"></div>
+
+    <script src="smoothie.js"></script>
+</body>
+</html>
